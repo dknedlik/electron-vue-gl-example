@@ -31,7 +31,6 @@
     </vgl-renderer>
   </vgl-namespace>
 </div>
-</div>
 </template>
 
 <script>
