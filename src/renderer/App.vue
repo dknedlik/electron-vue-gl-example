@@ -7,7 +7,7 @@
     <label>z<input type="range" v-model="z"></label>
   </aside>
   <vgl-namespace style="display: flex;">
-          <vgl-scene name="sphere">
+      <vgl-scene name="sphere">
         <vgl-sphere-geometry name="sphere" radius=25></vgl-sphere-geometry>
         <vgl-mesh-standard-material name="std"></vgl-mesh-standard-material>
         <vgl-mesh geometry="sphere" material="std" :position="`${x} ${y} ${z}`"></vgl-mesh>
